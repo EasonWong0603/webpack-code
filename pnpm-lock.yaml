@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  tapable:
+    specifier: ^2.2.1
+    version: 2.2.1
   webpack:
     specifier: ^5.88.2
     version: 5.88.2(webpack-cli@5.1.4)
