@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "acorn": "^8.10.0",
+    "acorn-walk": "^8.2.0",
+    "magic-string": "^0.30.3",
     "tapable": "^2.2.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"

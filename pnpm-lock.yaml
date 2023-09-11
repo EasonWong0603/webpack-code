@@ -5,6 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  acorn:
+    specifier: ^8.10.0
+    version: 8.10.0
+  acorn-walk:
+    specifier: ^8.2.0
+    version: 8.2.0
+  magic-string:
+    specifier: ^0.30.3
+    version: 0.30.3
   tapable:
     specifier: ^2.2.1
     version: 2.2.1
@@ -242,6 +251,11 @@ packages:
       acorn: ^8
     dependencies:
       acorn: 8.10.0
+    dev: true
+
+  /acorn-walk@8.2.0:
+    resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
+    engines: {node: '>=0.4.0'}
     dev: true
 
   /acorn@8.10.0:
@@ -492,6 +506,13 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       p-locate: 4.1.0
+    dev: true
+
+  /magic-string@0.30.3:
+    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /merge-stream@2.0.0:
