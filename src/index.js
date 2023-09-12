@@ -1,2 +1,3 @@
-const a = 'aaa';
-console.log('a:', a);
+import { a } from './data.js';
+
+console.log('🚀 ~ a:', a);
